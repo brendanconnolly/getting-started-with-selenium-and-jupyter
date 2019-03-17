@@ -16,8 +16,6 @@ def use_selenium_session(user_data_dir = nil, headless = false)
         options.add_argument(headless_switch)
         options.add_argument("--disable-gpu")
       end
-      options.add_argument("--show-autofill-type-predictions")
-      options.add_argument("--enable-single-click-autofill")
   
       Capybara::Selenium::Driver.new(app,
                                      browser: :chrome,
