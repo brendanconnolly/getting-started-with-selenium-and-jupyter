@@ -54,3 +54,4 @@ build-iPhoneSimulator/
 .ipynb_checkpoints
 .ruby-version
 Gemfile.lock
+clean_all.sh
